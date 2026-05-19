@@ -1,0 +1,4 @@
+name: openhermes-2.5-mistral-7b
+path: ${oc.env:OPENHERMES_2_5_MISTRAL_7B_PATH}
+weight: 1.0
+quantization: none

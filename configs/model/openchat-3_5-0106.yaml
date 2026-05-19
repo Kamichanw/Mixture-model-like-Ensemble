@@ -1,0 +1,4 @@
+name: openchat-3.5-0106
+path: ${oc.env:OPENCHAT_3_5_0106_PATH}
+weight: 1.0
+quantization: none

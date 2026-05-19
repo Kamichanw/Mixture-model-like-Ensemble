@@ -1,0 +1,4 @@
+name: deepseek-llm-7b-chat
+path: ${oc.env:DEEPSEEK_LLM_7B_CHAT_PATH}
+weight: 1.0
+quantization: none

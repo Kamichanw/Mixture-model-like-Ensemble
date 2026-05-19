@@ -1,0 +1,28 @@
+defaults:
+  - _self_
+
+method: me # single, ce_single, ce_parallel, me
+
+models:
+  - qwen2_5-3b-instruct
+  - qwen2_5-math-1_5b-instruct
+
+eval:
+  tasks:
+    - mmlu_gen
+  limit: null
+  num_fewshot: 0
+  # lm-eval keeps per-document completions in the saved samples.
+  log_samples: true
+
+generation:
+  max_gen_toks: 512
+  do_sample: true
+  temperature: 1.0
+  top_k: 10
+  top_p: 1.0
+  seed: 42
+
+ray:
+  num_gpus_per_model: 1
+  local_mode: false

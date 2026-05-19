@@ -1,0 +1,4 @@
+name: nous-hermes-2-mistral-7b-dpo
+path: ${oc.env:NOUS_HERMES_2_MISTRAL_7B_DPO_PATH}
+weight: 1.0
+quantization: none

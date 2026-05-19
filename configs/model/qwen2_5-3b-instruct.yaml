@@ -1,0 +1,4 @@
+name: qwen2.5-3b-instruct
+path: ${oc.env:QWEN2_5_3B_INSTRUCT_PATH}
+weight: 1.0
+quantization: none

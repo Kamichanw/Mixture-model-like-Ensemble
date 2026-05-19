@@ -1,0 +1,4 @@
+name: qwen2.5-math-1.5b-instruct
+path: ${oc.env:QWEN2_5_MATH_1_5B_INSTRUCT_PATH}
+weight: 1.0
+quantization: none
